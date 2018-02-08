@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url("https://use.typekit.net/hnu3ldx.css");
+
+p{
+	font-size: 1.7rem;
+	margin: 0;
+}
+.container-fluid{
+	padding: 0;	
+}
+.intro{
+	margin: 0;
+	padding-top: 15px;
+	min-height: 70vh;
+	background-image: url("img/Asset 1.png");
+	background-position: center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.logo{
+	max-width: 150px;	
+	margin-left: 15px;
+}
+
+.navbar-toggle{
+	margin-top: -50px !important;
+}
+
+.menu_float_right{
+	float: right;
+}
+
+.divider{
+	height: 20px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: #164170;
+	transition: all 1s ease;
+}
+.navbar-default .navbar-nav>li>a{
+	color: white !important;
+	transition: all .5s ease;
+
+}
+.navbar-default{
+	box-shadow: none !important;
+	border: none !important;
+	background-image: none !important;
+	background-color: transparent !important;
+	font-family: "univia-pro";
+	font-weight: 100;
+}
+.offer{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #164170;
+	min-height: 200px;
+}
+.offer img{
+	width: 100px;
+	text-align: center;
+}
+.loc_job_con{
+	margin-top: 30px;	
+}
+.middle{
+	min-height: 35vh;
+	position: relative;
+	text-align: center;
+	background-image: url("img/Asset 2.png");
+	background-position: center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: #164170;	
+}
+
+.middle_a{
+	display: flex;
+    justify-content: center;
+    align-items: center;	
+}
+.formular{
+	width: 800px;
+	margin: auto;
+	background-color: #EDEDED;
+	border: solid 10px #EDEDED;
+	margin-top: -42px;
+	border-radius: 5px;
+}
+.p_white{
+	margin-top: 15px;	
+	color: white;
+	font-family: "univia-pro";
+}
+.p_white_big{
+	color: white;
+	font-size: 2.2rem;
+	font-style: italic;
+	top: 50%;
+	left: 0;
+	right: 0;
+	font-family: "univia-pro";
+}
+.p_blue{
+	font-size: 2.2rem;
+	color: #164170;
+	margin: auto;
+	font-family: "univia-pro";
+}
+.p_blue_small{
+	color: #164170;
+	font-family: "univia-pro"
+}
+.p_blue_right{
+	font-size: 2.2rem;
+	color: #164170;
+	margin: auto;
+	font-family: "univia-pro";
+	text-align: right;
+}
+
+.p_footer{
+	text-align: center;
+	color: white;
+	font-family: "univia-pro";
+}
+.h2_header{
+	color: white;	
+	font-family: "univia-pro";
+	line-height: 1.6;
+}
+blockquote{
+	border: none;
+}
+.p_white_big:before{
+	font-family: "arial";
+	opacity: .2;
+	margin-left: -2rem;
+	margin-top: -4rem;	
+	font-size: 10rem;
+	content: "“";
+	position: absolute;
+	color: white;
+}
+.mapkis{
+	width: 100%;
+}
+
+.end{
+	background-image: url("img/Asset 3.png");
+	background-color: #164170;
+	background-size: cover;
+	background-position: center center;
+}
+
+.end_inner{
+	text-align: center;
+	width: 50rem;
+	margin: 5rem auto;
+}
+
+.form-control{
+	margin-bottom: 2rem;
+}
+form{
+	padding: 10px 5vw;
+	background-color: #164170;
+}
+
+.telekomunicia{
+	width: 100%;
+}
+
+footer{
+	background-color: #164170;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+
+@media only screen and (max-width: 800px){
+	.end_inner{
+		width: 100%;
+	}
+}
